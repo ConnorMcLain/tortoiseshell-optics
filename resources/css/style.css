@@ -1,0 +1,44 @@
+html {
+  font-size: 18px;
+  background-color: white;
+}
+
+body {
+  font-family: Helvetica;
+  width: 960px;
+}
+
+.container {
+  display: flex;
+}
+/*header*/
+
+ /*header-title*/
+.header {
+  background-color: cadetblue;
+  padding-top: 1rem;
+  line-height: 1.4;
+}
+
+.header .header-title {
+
+  font-size: 1rem;
+}
+
+.header .header-title img {
+  padding-left: 2rem;
+  padding-right: 1rem;
+  height: 1.5rem;
+}
+
+.header .header-title span {
+  font-size: 1rem;
+}
+
+/*header nav*/
+
+.header  nav ul {
+  justify-content: space-between;
+  padding: 2rem 1rem;
+  font-size: 1rem;
+}
